@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refúgio Felino</title>
+  <link rel="icon" type="image/x-icon" href="../images/icon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+    <header class="header-fixed">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="d-flex">
+            <a href="#">
+              <img src="../images/logo.png" loading="lazy" class="abs-img container" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#animais">Animais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <button class="button-doacao">
+                <a href="./doacao.html">Faça Sua Doação</a>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="home-container">
+        <section class="home container" id="home">
+          <div class="home-title">
+            <h1>Refúgio Felino</h1>
+            <button class="button-doacao2">
+              <a href="./doacao.html">Faça Sua Doação</a>
+            </button>
+          </div>
+          <div>
+            <img class="home-img" src="../images/Onca1.jpg" />
+          </div>
+        </section>
+      </div>
+      <div id="sobre" class="sobre-background">
+        <section class="container mt-5">
+          <div class="container-flex">
+            <div class="sobre-container">
+              <img class="sobre-img" src="../images/onca2.jpg" />
+
+              <div class="sobre-content">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p class="section-text">
+                  Bem-vindo ao Refúgio Felino! Somos uma família apaixonada
+                  por esses magníficos habitantes das florestas brasileiras,
+                  comprometidos em preservar e proteger cada felino que chama
+                  o Brasil de lar.
+                </p>
+                <button class="button-doacao2">
+                  <a href="./sobre.html">Saiba Mais</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="animais">
+        <section class="tipos-animais container">
+          <h1>Animais</h1>
+          <div class="animais-infor container">
+            <label for="selecaoAnimal">Escolha um animal:</label>
+            <select id="selecaoAnimal">
+              <option value="selecione">Selecione um animal</option>
+              <option value="oncaPintada">Onça-pintada</option>
+              <option value="oncaParda">Onça-parda</option>
+              <option value="jaguarundi">Jaguarundi</option>
+              <option value="jaguatirica">Jaguatirica</option>
+              <option value="gatoMaracaja">Gato-maracajá</option>
+              <option value="gatoMacambira">Gato-macambira</option>
+              <option value="gatoPequeno">Gato-do-mato-pequeno</option>
+              <option value="gatoGrande">Gato-do-mato-grande</option>
+              <option value="gatoPalheiro">Gato-palheiro</option>
+            </select>
+          </div>
+
+          <div id="informacaoAnimal">
+            <img id="animalImg" class="img-banner container" src="../images/banner.png" alt="Imagem do animal" />
+            <p id="descricaoAnimal"></p>
+          </div>
+        </section>
+      </div>
+
+      <section id="contato">
+        <div class="section-contato">
+          <h1>Contato</h1>
+          <div class="contato-content">
+            <div>
+              <h3>Telefone</h3>
+              <p>(11) 3456-7890</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>refugiofelino@gmail.com</p>
+            </div>
+            <div>
+              <h3>Área de Serviço</h3>
+              <p>Atendemos todo o Brasil</p>
+            </div>
+            <div>
+              <h3>Redes Sociais</h3>
+              <p>@RefugioFelino</p>
+            </div>
+            <div>
+              <h3>Endereço</h3>
+              <p>Boa Vista, Manaus - AM</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>©2023 Arthur Vinicius Jurema de Brito Rodrigues</p>
+        <p>
+          Informações e imagens retiradas do site:
+          https://www.icmbio.gov.br/cenap/carnivoros-brasileiros.html#topo
+        </p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    const selecaoAnimal = document.getElementById("selecaoAnimal");
+    const informacaoAnimal = document.getElementById("informacaoAnimal");
+
+    selecaoAnimal.addEventListener("change", function () {
+      const animalSelecionado = selecaoAnimal.value;
+
+      if (animalSelecionado === "oncaPintada") {
+        const nome = "Onça-pintada";
+        const imagem = "../images/onca-pintada.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Onça-pintada, onça-preta, jaguaretê, canguçu.<br><br>
+                    <b>Nome em inglês:</b> Jaguar.<br><br>
+                    <b>Ameaças e conservação:</b> Perda e fragmentação de habitat, associadas principalmente à expansão agropecuária, mineração, implantação de hidrelétricas e ampliação da malha viária, são as principais ameaças à conservação. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL. O ‘‘Plano de Ação para a Conservação da Onça-Pintada’’ prioriza: 1) Redução do impacto da ocupação humana dentro de áreas prioritárias para a conservação da espécie; 2) Redução do impacto ambiental nas áreas prioritárias para a conservação da espécie atingidas por grandes empreendimentos; 3) Fiscalização a fim de coibir a caça por retaliação e esportiva; 4) Programas de educação ambiental com foco em onça-pintada; 5) Estratégias de mitigação de conflitos; 6) Redução do número de espécimes retirados da natureza.<br><br>
+                    <b>Comprimento total:</b> Até 2,70 m (máxima).<br><br>
+                    <b>Peso:</b> Entre 35 kg e 158 kg.<br><br>
+                    <b>Dieta:</b> Pequenos mamíferos, répteis e aves até grandes como antas, queixadas, veados, jacarés, sucuris.<br><br>
+                    <b>Número de filhotes:</b> 1 a 4.<br><br>
+                    <b>Gestação:</b> 90 a 111 dias.<br><br>
+                    <b>Longevidade:</b> 15 anos (vida livre).<br><br>
+                    <b>Estrutura social:</b> Solitária.<br><br>
+                    <b>Padrão de atividade:</b> Diurno e noturno.<br><br>
+                    <b>Distribuição geográfica:</b> Ocorre em quase todos os biomas brasileiros, com exceção do Pampa.<br><br>
+                    <b>Habitat:</b> A onça-pintada pode habitar diferentes tipos de ambientes, de florestas tropicais a regiões semi-desérticas. A espécie parece evitar áreas com elevada altitude, apesar de haver registros de ocorrência de onça-pintada em áreas com 3.800 m. Além disso, a espécie evita áreas com atividade humana. Em áreas rurais, próximas a ambientes naturais da espécie, elas podem atacar rebanhos domésticos, ocasionando conflitos com proprietários rurais. Não há indícios de que onças-pintadas possam se adaptar a ambientes alterados pela ação humana, porém alguns animais foram fotografados, por meio de armadilha fotográfica, em reflorestamento de eucalipto.<br><br>
+                    <b>Descrição física:</b> Sua pelagem varia do amarelo-claro ao castanho-ocreáceo e é caracterizada por manchas pretas em forma de rosetas de diferentes tamanhos. Estas rosetas são como a “impressão digital” do animal e servem para diferenciá-lo, pois cada indivíduo possui um padrão único de pelagem. Existe também a variação melânica da espécie, que são onças com uma coloração de fundo preto, mas que também possuem as rosetas.<br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "oncaParda") {
+        const nome = "Onça-parda";
+        const imagem = "../images/onca-parda.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Onça-parda, onça-vermelha, suçuarana, leão-baio, bodeira, puma.<br><br>
+                    <b>Nome em inglês:</b> Puma, cougar, mountain lion.<br><br>
+                    <b>Ameaças e conservação:</b> A supressão e fragmentação de habitats, a retaliação por predação de animais domésticos (tanto o abate “preventivo” de onças-pardas quanto o abate após o evento de predação), e os atropelamentos parecem ser as principais causas de perda de indivíduos da espécie no Brasil. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL. O ‘‘Plano de Ação para a Conservação da Onça-Parda’’ tem como meta: 1) Gerar e divulgar conhecimento sobre história de vida, viabilidade populacional e uso do espaço de vida; 2) Reduzir a perda de habitats e aumentar a conectividade entre áreas de vegetação nativa e alteradas; 3) Aumento do conhecimento sobre as dimensões ecológicas, sociais, culturais e econômicas que levam ao abate de onças-pardas e suas presas; 4) Diminuir a retirada de indivíduos de onça-parda da natureza por caça, abate oportunístico e/ou retaliatório; 5) Reduzir impactos negativos causados pelas atividades rurais e pela expansão da malha viária.<br><br>
+                    <b>Comprimento corpo e cauda:</b> 1,96 m (média).<br><br>
+                    <b>Peso:</b> Varia de 38 kg a 72 kg.<br><br>
+                    <b>Dieta:</b> Devido a seu hábito oportunista pode se alimentar de pequenos vertebrados como pacas, tatus, quatis, roedores, aves e répteis até veados, porcos-do-mato, capivaras, jacarés e criações domésticas de médio e pequeno porte.<br><br>
+                    <b>Número de filhotes:</b> 1 a 6.<br><br>
+                    <b>Gestação:</b> 82 a 98 dias.<br><br>
+                    <b>Longevidade:</b> 15 anos (vida livre).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividades:</b> Crepuscular e noturno.<br><br>
+                    <b>Distribuição geográfica:</b> A onça-parda é o mamífero terrestre de maior extensão de ocorrência na região Neotropical, sendo encontrada originalmente desde o sul do Canadá até o extremo sul do continente sul-americano, com exceção apenas do complexo das ilhas Caribenhas e algumas regiões do Chile.<br><br>
+                    <b>Habitat:</b> É um dos felinos mais bem adaptados aos diferentes tipos de ambientes, possuindo a habilidade de ocupar todas as zonas biogeográficas do Novo Mundo, exceto a Tundra Ártica. A espécie pode ser encontrada desde florestas úmidas tropicais e subtropicais até florestas temperadas, áreas montanhosas acima de 3.000 m de altitude, pântanos e chacos, e regiões extremamente áridas e/ou frias. Também está adaptada a ambientes abertos de pouca cobertura vegetal, assim como áreas com algum grau de perturbação.<br><br>
+                    <b>Descrição física:</b> Tem pelagem macia, de coloração bege por todo o corpo à exceção da região ventral que é mais clara. Os filhotes nascem com pintas marrons escuras e olhos azuis. O tamanho e peso variam conforme região de ocorrência. É um animal de corpo delicado e alongado, o que lhe dá muita agilidade. Podem saltar do chão a uma altura de 5,5 m em uma árvore e em um só pulo.<br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "jaguarundi") {
+        const nome = "Jaguarundi";
+        const imagem = "../images/jaguarundi.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Jaguarundi, gato-mourisco, gato-vermelho.<br><br>
+                    <b>Nome em inglês:</b> Jaguarondi, eira cat, otter cat.<br><br>
+                    <b>Ameaças e conservação:</b> Perda e fragmentação de habitats, principalmente pela expansão agropecuária, assim como a caça cultural ou retaliatória em casos de conflitos com proprietários rurais, atropelamentos e queimadas afetam diretamente a sobrevivência dos indivíduos. Como medidas de conservação é importante: 1) Destacar a utilização dos felinos como “espécies bandeira” em atividades de Educação Ambiental, principalmente no meio rural, com as crianças e trabalhadores rurais como público-alvo; 2) Manutenção ou restauração da conectividade em ambientes com características originais (nativos); 3) Ações para a conservação em áreas privadas; 4) Ampliação das unidades de conservação. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL.<br><br>
+                    <b>Comprimento total:</b> 1,40 m (média).<br><br>
+                    <b>Peso:</b> 6 kg (média).<br><br>
+                    <b>Dieta:</b> Mamíferos de pequeno e médio porte (terrestres e arborícolas), aves, serpentes, lagartos e anfíbios.<br><br>
+                    <b>Número de filhotes:</b> 1 a 4.<br><br>
+                    <b>Gestação:</b> 63 a 75 dias.<br><br>
+                    <b>Longevidade:</b> 18,6 anos (cativeiro).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Diurno e crepuscular.<br><br>
+                    <b>Distribuição geográfica:</b> Ocorre na América do Norte, Central e do Sul. Tem ampla distribuição pelo Brasil, porém ocorre em baixas densidades populacionais.<br><br>
+                    <b>Habitat:</b> Florestas de planícies e matas, utilizando ambientes florestais primários e secundários, restingas, cerrado, manguezais e plantações de eucalipto.<br><br>
+                    <b>Descrição física:</b> Felino com um corpo característico: alongado e delgado, com cabeça pequena e achatada, pernas e orelhas curtas e cauda longa. Sua coloração varia do marrom bem escuro passando pelo avermelhado ao bege, sendo que os indivíduos mais escuros estão associados a ambiente de floresta enquanto que os mais claros são comuns em regiões mais secas. <br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "jaguatirica") {
+        const nome = "Jaguatirica";
+        const imagem = "../images/jaguatirica.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Jaguatirica, gato-maracajá, maracajá-verdadeiro, maracajá-açu, gato-do-mato.<br><br>
+                    <b>Nome em inglês:</b> Ocelot.<br><br>
+                    <b>Ameaças e conservação:</b> A principal ameaça é perda e fragmentação de habitats naturais a qual a espécie depende. O abate de animais para controle de predação em aves domésticas, atropelamentos e transmissão de doenças por carnívoros domésticos também podem representar ameaças. É necessário restabelecer a conectividade dos habitats fragmentados em áreas com maior fragmentação na Mata Atlântica, Cerrado e Caatinga e adotar medidas retaliatórias contra a caça e o comércio ilegal. A espécie não foi incluída na lista oficial de espécies ameaçadas do MMA (Ministério do Meio Ambiente, 2014).<br><br>
+                    <b>Comprimento total:</b> Varia de 97 cm a 1,45 m.<br><br>
+                    <b>Peso:</b> Até 18,6 kg.<br><br>
+                    <b>Dieta:</b> Pequenos e médios mamíferos, como ratos, camundongos, pacas, cutias, tatu, macacos, ungulados e aves, répteis, peixes, moluscos e crustáceos aquáticos.<br><br>
+                    <b>Número de filhotes:</b> 1 a 4.<br><br>
+                    <b>Gestação:</b> 70 a 85 dias.<br><br>
+                    <b>Longevidade:</b> 10 anos (vida livre) e 21,5 anos (cativeiro).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Noturno e crepuscular.<br><br>
+                    <b>Distribuição geográfica:</b> É encontrado desde o sudoeste do Texas, oeste do México até o norte da Argentina e noroeste do Uruguai. No Brasil, ocorre em todo o território nacional, exceto da região dos pampas no sul do Rio Grande do Sul.<br><br>
+                    <b>Habitat:</b> Ocorre em uma variedade muito grande de ambientes que vão desde áreas florestadas e pluviais até formações abertas e secas como a Caatinga e Chaco. Pode ser encontrado tanto em ambientes primitivos quanto em ambientes alterados, inclusive em áreas agrícolas e pastagens de pequena monta.<br><br>
+                    <b>Descrição física:</b> Felino de porte médio e com pelagem espessa, de coloração amarelo-dourada com rosetas escuras dispostas principalmente nas laterais do corpo. No dorso as rosetas se fundem formando listras que vão do topo dos olhos à base da caudas.<br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "gatoMaracaja") {
+        const nome = "Gato-maracajá";
+        const imagem = "../images/gato-maracaja.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Gato-do-mato, gato-maracajá, gato peludo, maracajá-peludo.<br><br>
+                    <b>Nome em inglês:</b> Margay.<br><br>
+                    <b>Ameaças e conservação:</b> A perda e fragmentação de habitats naturais é a principal ameaça às populações. Porém, o abate de animais para controle de predação de aves domésticas é outra ameaça importante, assim como atropelamentos, transmissão de doenças por carnívoros domésticos e a caça. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL. Para a conservação é necessário: 1) Intensificar a fiscalização redução de perda e fragmentação de habitats; 2) Ampliar as áreas protegidas; 3) Conectar os habitats de ocorrência da espécie; 4) Criar um Plano de Ação para a conservação da espécie.<br><br>
+                    <b>Comprimento total:</b> 97 cm (média).<br><br>
+                    <b>Peso:</b> 3,3 Kg (média).<br><br>
+                    <b>Dieta:</b> Predominam pequenos mamíferos (roedores e marsupiais), mas também inclui mamíferos de médio porte (menor que 1,5 Kg), aves e lagartos.<br><br>
+                    <b>Número de filhotes:</b> 1.<br><br>
+                    <b>Gestação:</b> 81 a 84 dias.<br><br>
+                    <b>Longevidade:</b> 24 anos (cativeiro).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Noturno.<br><br>
+                    <b>Distribuição geográfica:</b> O gato-maracajá é encontrado desde a zona costeira do México até o norte do Uruguai e Argentina e em todo o Brasil, com exceção do estado do Ceará e metade meridional do Estado do Rio Grande do Sul. No estado do Rio Grande do Norte, Pernambuco, Paraíba, Alagoas e Sergipe é encontrado apenas na Mata Atlântica costeira.<br><br>
+                    <b>Habitat:</b> Ocorre em todos os biomas do Brasil, mas é predominantemente associado a ambientes de floresta, desde formações densas contínuas a pequenos fragmentos em ecossistemas savânicos, de matas primitivas a degradadas.<br><br>
+                    <b>Descrição física:</b> A espécie se caracteriza por apresentar olhos bem grandes e protuberantes, focinho saliente, patas grandes e cauda bastante comprida. As patas traseiras têm articulações especialmente flexíveis, permitindo rotação de até 180 graus, o que lhe dá a rara habilidade entre os felinos de descer de uma árvore de cabeça para baixo. A coloração varia entre amarelo acinzentado e castanho-amarelado, com tonalidades intermediárias. O padrão de manchas é variável, de pintas sólidas a bandas longitudinais. Leopardus wiedii é menor que Leopardus geoffroyi, com pelagem mais macia, pelos mais compridos e cauda mais longa que a dos outros pequenos felinos.<br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "gatoMacambira") {
+        const nome = "Gato-macambira";
+        const imagem = "../images/gato-macambira.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Gato-do-mato, gato-do-mato-pequeno, pintadinho, mumuninha, gato-lagartixeiro, chué, gato-maracajá-mirim, maracajá-i, gato-maracajá.<br><br>
+                    <b>Nome em inglês:</b> Oncilla, little spotted cat, northern tiger cat.<br><br>
+                    <b>Ameaças e conservação:</b> Perda e a fragmentação dos habitats naturais, abate de animais para controle de predação de aves domésticas, atropelamentos, transmissão de doenças por carnívoros domésticos e o comércio de peles. Ações de conservação são necessárias, como: 1)Aumentar o nível de conhecimento sobre a espécie; 2) Restabelecer a conectividade dos habitats fragmentados; 3) Adotar ações voltadas para a conservação fora das Unidades de Conservação, as quais incluiriam educação ambiental, conectividade, controle de doenças e de predação; 4) Fazer o manejo das populações em cativeiro; 5) Adotar medidas retaliatórias contra a caça e o comércio ilegal; 6) Implementar o Plano de Ação Nacional para Conservação da espécie. Está classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie EM PERIGO.<br><br>
+                    <b>Comprimento total:</b> 77 cm (média).<br><br>
+                    <b>Peso:</b> 2,4 Kg (média).<br><br>
+                    <b>Dieta:</b> É especialmente composta por mamíferos muito pequenos (menos de 100 g), aves e répteis. Mamíferos como cutias e pacas, também chegam a fazer parte da dieta. A média consumida está em torno de 150 g.<br><br>
+                    <b>Número de filhotes:</b> 1 a 4.<br><br>
+                    <b>Gestação:</b> 73 a 78 dias.<br><br>
+                    <b>Longevidade:</b> 21,9 anos (cativeiro).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Noturno e crepuscular.<br><br>
+                    <b>Distribuição geográfica:</b> É encontrado no norte e nordeste do Brasil, e também nas Guianas e Venezuela.<br><br>
+                    <b>Habitat:</b> Ocorre numa grande variedade de ambientes, das florestas pluviais densas da Mata Atlântica e Amazônia, às áreas secas quase sem chuva da Caatinga nordestina. No Brasil estes ambientes incluem vegetação costeira das restingas, as diversas formas de florestas tropicais e sub-tropicais, assim como diversas fisionomias do Cerrado e da Caatinga. No Pantanal, sua presença parece estar restrita às áreas mais secas, de cerrado (savana).<br><br>
+                    <b>Descrição física:</b> É a menor espécie de felino do Brasil. Possui porte e proporções corporais semelhantes ao gato doméstico. Possui pelo curto e grosso com coloração castanho claro ao cinza e manchas marrom escuro com um esboço preto formando rosetas. O ventre é mais pálido que o resto do corpo, mas marcado com rosetas. A cauda é forrado com 7 a 13 anéis escuros e termina com uma ponta escuro. Os membros estão cobertos de manchas pretas colocadas aleatoriamente, e a parte de trás das orelhas são pretas com uma mancha branca perto do centro do pavilhão auricular. Embora o melanismo foi documentado nesta espécie, não existe albinismo. Recentemente, por meio de estudos moleculares, a espécie foi dividida em duas: Leopardus tigrinus e Leopardus guttulus, no Brasil.<br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "gatoPequeno") {
+        const nome = "Gato-do-mato-pequeno";
+        const imagem = "../images/gato-do-mato-pequeno.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Gato-do-mato-pequeno.<br><br>
+                    <b>Nome em inglês:</b> Southern tiger cat.<br><br>
+                    <b>Ameaças e conservação:</b> Caça para o comércio de peles, destruição das florestas, população reduzida devido a fragmentação e conversão de habitat natural em plantações e pastagens e restrito conhecimento sobre sua biologia. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL.<br><br>
+                    <b>Comprimento total:</b> 83,5 cm (média).<br><br>
+                    <b>Peso:</b> 1,5 Kg a 3 Kg.<br><br>
+                    <b>Dieta:</b> Composta por mamíferos muito pequenos (menos de 100 g), aves e répteis.<br><br>
+                    <b>Número de filhotes:</b> 1 a 4.<br><br>
+                    <b>Gestação:</b> 73 a 78 dias.<br><br>
+                    <b>Longevidade:</b> 11 anos.<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Noturno e diurno.<br><br>
+                    <b>Distribuição geográfica:</b> Ocorre nas regiões sul, sudeste e centro-oeste do Brasil, além do Paraguai e nordeste da Argentina, ocupando geralmente ambientes variados, desde áreas mais abertas àquelas com vegetação densa.<br><br>
+                    <b>Habitat:</b> Ocupa vários ambientes, desde áreas mais abertas à vegetação densa.<br><br>
+                    <b>Descrição física:</b> Junto com Leopardus tigrinus é o menor gato silvestre da América do Sul, com tamanho semelhante ao de um gato doméstico. A coloração é bem variável, com tonalidades entre o amarelo-claro e o castanho-amarelado. O melanismo também é comum na espécie. A pelagem dessa espécie, comparada com L. tigrinus, tende a tons mais escuros e com rosetas maiores e mais arredondadas, além de ser levemente mais encorpada, com uma cauda mais grossa e orelhas menores e mais arredondadas. A pelagem da barriga é pálida coberta com manchas escuras. As orelhas são pretas na porção posterior, com uma mancha central branca. A cauda equivale a 60% do comprimento da cabeça e corpo. Os pelos são todos voltados para trás, inclusive os da cabeça e nuca. Recentemente, por meio de estudos moleculares, a subespécie Leopardus tigrinus guttulus foi elevado para espécie.<br><br>
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "gatoGrande") {
+        const nome = "Gato-do-mato-grande";
+        const imagem = "../images/gato-do-mato-grande.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Gato-do-mato-grande, gato-do-mato.<br><br>
+                    <b>Nome em inglês:</b> Geoffroy’s cat.<br><br>
+                    <b>Ameaças e conservação:</b> Sabe-se pouco sobre as ameaças no Brasil. Porém, as principais identificadas são: caça para obtenção da pele (internacionalmente, esta espécie é a segunda mais perseguida para comercialização da pele); retaliação por predação de animais domésticos; predação por cachorros domésticos; atropelamento; perda da cobertura vegetal original. Na região central do Rio Grande do Sul foi identificada uma faixa de hibridização com Leopardus tigrinus e, recentemente, a hibridização com gatos domésticos para comercialização dos indivíduos como animal de estimação. As medidas de conservação que podem ser aplicadas são: 1) Utilizar espécies de felinos como “espécies-bandeiras” em atividades de Educação Ambiental, especialmente com crianças e trabalhadores rurais; 2) Manutenção ou restauração da conectividade de fragmentos com vegetação nativa; 3) Criação e ampliação de unidades de conservação no bioma Pampa. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL.<br><br>
+                    <b>Comprimento total:</b> 94 cm (média).<br><br>
+                    <b>Peso:</b> 4,6 kg (média).<br><br>
+                    <b>Dieta:</b> Constituída em sua grande parte por vertebrados, principalmente mamíferos como pequenos roedores, marsupiais, aves. Presas de porte maior também são consumidas como a viscacha, ratão-do-banhado e lebre.<br><br>
+                    <b>Número de filhotes:</b> 2 a 3.<br><br>
+                    <b>Gestação:</b> 76 a 78 dias.<br><br>
+                    <b>Longevidade:</b> 23 anos (cativeiro).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Noturno e diurno.<br><br>
+                    <b>Distribuição geográfica:</b> Ocorre na porção centro-sul da América do Sul, do Uruguai e sul do Brasil até a região andina da Bolívia e norte da Argentina, abrangendo também a região do Chaco no oeste do Paraguai e toda a Argentina até a Patagônia, inclusive no sul chileno.<br><br>
+                    <b>Habitat:</b> No Brasil, chega a ser encontrado em áreas consideravelmente impactadas por atividades agrícolas de pequena monta. Tolera algum grau de alteração do ambiente, produzido pelo manejo de criações domésticas. No sul do Chile pode ser encontrado nas áreas com vegetação densa, arbustiva e arbórea em altitudes desde o nível do mar até 3.300 m no bioma Pampa.<br><br>
+                    <b>Descrição física:</b> A pelagem tem coloração que varia do cinza claro ao ocre, recoberta por um grande número de pequenas manchas negras. O dorso e as patas possuem pequenas listras negras e a cauda é anelada.<br><br> 
+                `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else if (animalSelecionado === "gatoPalheiro") {
+        const nome = "Gato-palheiro";
+        const imagem = "../images/gato-palheiro.png";
+        const descricao = `
+                    <b>Nomes comuns:</b> Gato-palheiro, gato-dos-pampas.<br><br>
+                    <b>Nome em inglês:</b> Pantanal cat, pampas cat.<br><br>
+                    <b>Ameaças e conservação:</b> Perda de habitat provocada principalmente pela expansão agrícola e pela silvicultura, queimadas, atropelamentos, predação por cães domésticos, caça retaliatória ou preventiva e envenenamento, como caça por retaliação. Como medidas de conservação é importante: 1) Destacar a utilização de felinos como “espécies bandeira” em atividades de Educação Ambiental, principalmente no meio rural, focalizando as crianças e trabalhadores rurais; 2) Manutenção ou restauração da conectividade em ambientes com características originais; 3) Ações para a conservação em áreas privadas; 4) Ampliação das UCs, sobretudo na região do Pampa, onde são muito escassas. É classificado pelo MMA (Ministério do Meio Ambiente, 2014) como espécie VULNERÁVEL.<br><br>
+                    <b>Comprimento total:</b> 88,5 cm (média).<br><br>
+                    <b>Peso:</b> 3 a 4 Kg.<br><br>
+                    <b>Dieta:</b> Principalmente pequenos mamíferos, aves, lagartos, serpentes e insetos.<br><br>
+                    <b>Número de filhotes:</b> 1 a 3.<br><br>
+                    <b>Gestação:</b> 80 a 85 dias.<br><br>
+                    <b>Longevidade:</b> 19,6 anos (cativeiro).<br><br>
+                    <b>Estrutura social:</b> Solitário.<br><br>
+                    <b>Padrão de atividade:</b> Crepuscular e noturno.<br><br>
+                    <b>Distribuição geográfica:</b> Apresenta uma ampla distribuição na América do Sul, ocorrendo principalmente em regiões com predomínio de vegetação do tipo campestre e savana, desde campos de altitude até a região andina do Peru, Bolívia, Chile, Argentina, Paraguai. No Brasil, a espécie é registrada na região centro-oeste e sudeste (Mato Grosso do Sul, sul-sudeste do Mato Grosso, Goiás, Tocantins, sul do Maranhão e Piauí, oeste da Bahia, oeste-noroeste de Minas Gerais e oeste de São Paulo) e na região sul (metade sul do estado do Rio Grande do Sul).<br><br>
+                    <b>Habitat:</b> É a espécie de felino sul-americano que frequenta a maior quantidade de habitats diferentes, não somente áreas abertas, mas também florestas, desde o nível do mar até aproximadamente os 5000 m. Pode ser encontrado em ambientes alterados, como áreas de cultivos agrícolas, além de áreas limítrofes campos-áreas agricultáveis e cerrado-pastos.<br><br>
+                    <b>Descrição física:</b> Corpo com pelos longos e coloração que vai do vermelho alaranjado ao cinza. Possui listras de forma irregular nas patas e laterais do corpo.<br><br>
+                    `;
+        exibirinformacaoAnimal(nome, imagem, descricao);
+      } else {
+        informacaoAnimal.style.display = "none";
+      }
+    });
+
+    function exibirinformacaoAnimal(nome, imagem, descricao) {
+      const animalImg = document.getElementById("animalImg");
+      const descricaoAnimal = document.getElementById("descricaoAnimal");
+
+      animalImg.src = imagem;
+      animalImg.alt = `Imagem do ${nome}`;
+      descricaoAnimal.innerHTML = descricao;
+      informacaoAnimal.style.display = "block";
+    }
+  </script>
+</body>
+
+</html>
